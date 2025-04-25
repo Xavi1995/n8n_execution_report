@@ -12,9 +12,9 @@ Analyze your n8n workflow executions and generate detailed reports in PDF format
 
 ## Requirements
 - Python 3.9 or higher
-- Dependencies:
+- install fpdf to generate pdf report
   ```bash
-  pip install -r requirements.txt
+  pip install fpdf
  
 ## How to use it
 
