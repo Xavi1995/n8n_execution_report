@@ -71,9 +71,11 @@ Analyze your n8n workflow executions and generate detailed reports in PDF format
 
 ### 4. Use python script to generate the report
 
-- Get the script in repo directory
+- Download "report_generator_script.py" in this repo.
+- Execute this command to get your PDF report.
 ```bash
-python auditor.py
+python report_generator_script.py <name of your JSON file from n8n>
+// Example: python report_generator_script.py my_json_file.json
 ```
 - This will save in the same root a PDF file with your execution report.
 
