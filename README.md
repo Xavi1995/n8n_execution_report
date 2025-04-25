@@ -1,7 +1,8 @@
 # n8n_execution_report
 Analyze your n8n workflow executions and generate detailed reports in PDF format, including AI costs, node performance, and optimization suggestions.
 
-![](./assets/report.PNG)
+![](./assets/example_pdf_1.PNG)
+![](./assets/example_pdf_2.PNG)
 ## Features
 - Summarizes execution duration, AI usage and estimated cost
 - Detects AI nodes and calculates token usage
