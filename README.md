@@ -1,6 +1,8 @@
 # n8n_execution_report
 Analyze your n8n workflow executions and generate detailed reports in PDF format, including AI costs, node performance, and optimization suggestions.
 
+This tool currently supports workflows with one level of subworkflows only. Nested subworkflows beyond that level are not yet supported.
+
 ![](./assets/example_pdf_1.PNG)
 ![](./assets/example_pdf_2.PNG)
 ## Features
