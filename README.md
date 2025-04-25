@@ -21,7 +21,7 @@ Analyze your n8n workflow executions and generate detailed reports in PDF format
 ### 1. Import included n8n workflow template
 
 - Go to: n8n > Workflows > Import
-- Load the template included in this repo
+- Load the template "Auditor.json" included in this repo
 
 ### 2. Modify the "get_execution_info" HTTP Request node in the workflow
 
