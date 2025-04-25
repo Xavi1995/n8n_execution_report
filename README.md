@@ -25,7 +25,7 @@ Analyze your n8n workflow executions and generate detailed reports in PDF format
 
 ### 2. Modify the "get_execution_info" HTTP Request node in the workflow
 
-- Set this configuration in the HTTP Request node
+- Set this configuration in "get_execution_info" node
 
   #### - URL:
 
