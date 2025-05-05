@@ -26,41 +26,18 @@ This tool currently supports workflows with one level of subworkflows only. Nest
 - Go to: n8n > Workflows > Import
 - Load the template "Auditor.json" included in this repo
 
-### 2. Modify the "get_execution_info" HTTP Request node in the workflow
+### 2. Modify the "get_execution_info" n8n API node in the workflow
+- You need a n8n api key. Fill it in the field "Credential to connect with". Create a credential if you dont have it with the n8n api key and your hostname.
+![](./assets/n8n_api_credential.PNG)
 
-- Set this configuration in "get_execution_info" node
-
-  #### - URL:
-
-  ```bash
-  https://<your-n8n-domain>/api/v1/executions/<execution_id>
-  ```
-  ![](./assets/url.PNG)
-
-  #### - Query and Headers parameters
-    
-  - Get n8n API Key -> [How to get n8n api token](https://docs.n8n.io/api/authentication/).
- 
-  - Query parameters
-    
-    1. Specify Query Parameters -> Select "Using JSON" in dropdown
-    2. In JSON field
-        {
-          "includeData" : true
-        }
-    
-  - Headers.
-
-    {
-      "X-N8N-API-KEY" : <YOUR-API-KEY>,
-      "Accept" : "application/json"
-    }
-    
+- Just need to get the execution ID and set in "Execution ID" field.
+- Be sure to active the "Include Execution Details" toggle.
 
   #### - Example
    
-  ![](./assets/query_parameters.PNG)
+  ![](./assets/n8n_node.PNG)
 
+- Do the same for the node "get_execution_info_subworkflow"
 
 ### 3. Run the n8n workflow and get JSON file output
 
