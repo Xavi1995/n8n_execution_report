@@ -74,4 +74,4 @@ Feel free to open an [issue](https://github.com/Xavi1995/n8n_execution_report/is
 
 This tool is not affiliated with n8n — just a side project to make auditing easier for developers.
 
-And give me a :star: if you found this usefull (what I'm trying to be).
+And give me a :star: if you found this useful (what I'm trying to be).
